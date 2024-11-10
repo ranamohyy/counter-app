@@ -18,9 +18,9 @@ class MyApp extends StatelessWidget {
       create: (context) => CounterCubit(),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Flutter Demo',
         theme: ThemeData(
-          appBarTheme: AppBarTheme( backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+          appBarTheme: AppBarTheme(backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+
           ),
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
